@@ -10,7 +10,7 @@ import ThunderstormIcon from '@mui/icons-material/Thunderstorm';
 import AcUnitIcon from '@mui/icons-material/AcUnit';
 import WbSunnyIcon from '@mui/icons-material/WbSunny';
 
-let WEATHER_API_KEY = process.env.NEXT_PUBLIC_WEATHER_APP_API_KEY;
+let WEATHER_API_KEY = "22571363d04f3de6828dfc65fc25be62";
 
 export default function Home() {
   const [place,setPlace] = useState("Nairobi")
